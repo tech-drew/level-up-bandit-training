@@ -40,16 +40,21 @@
 - cat -- '--spaces in this filename'
 - Notes and learning points:
 
-**Current Level**
 # Level 3 -> 4
 - Goal: Identify hidden files (dotfiles) to find the password
 - username ssh bandit3@bandit.labs.overthewire.org -p 2220
 - password MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 - Commands used:
+- ls -la
+- cd inhere
+- vi '...Hiding-From-You'
 - Notes and learning points:
 
+**Current Level**
 # Level 4 -> 5
 - Goal: Use `file` to find a human-readable file among many
+- username ssh bandit4@bandit.labs.overthewire.org -p 2220
+- password 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 - Commands used:
 - Notes and learning points:
 
