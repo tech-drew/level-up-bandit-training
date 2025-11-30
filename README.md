@@ -23,8 +23,8 @@ This repo is actively being updated with level outlines, notes, and commands as 
 | Level        | Status | Description |
 |-------------|--------|-------------|
 | 00 → 01     | ✅    | SSH login — connect to the Bandit server. |
-| 01 → 02     | ⬜    | Read the file `readme` in the home directory to find the next password. |
-| 02 → 03     | ⬜    | Handle a file with a special name (`-`). |
+| 01 → 02     | ✅    | Read the file `readme` in the home directory to find the next password. |
+| 02 → 03     | ✅    | Handle a file with a special name (`-`). |
 | 03 → 04     | ⬜    | Deal with spaces in filenames (quoting or escaping). |
 | 04 → 05     | ⬜    | Identify hidden files (dotfiles) to find the password. |
 | 05 → 06     | ⬜    | Use `file` to find a human-readable file among many. |
