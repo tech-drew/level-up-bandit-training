@@ -27,7 +27,7 @@ This repo is actively being updated with level outlines, notes, and commands as 
 | 02 → 03      | ✅     | Handle a file with a special name (`-`).                               |
 | 03 → 04      | ✅     | Deal with spaces in filenames (quoting or escaping).                   |
 | 04 → 05      | ✅     | Use `file` to find a human-readable file among many.                   |
-| 05 → 06      | ⬜     | Find a file of specific size and permissions.                          |
+| 05 → 06      | ✅     | Find a file of specific size and permissions.                          |
 | 06 → 07      | ⬜     | Locate a file by user/group ownership.                                 |
 | 07 → 08      | ⬜     | Use `grep` to extract a line containing a keyword.                      |
 | 08 → 09      | ⬜     | Use `sort` + `uniq -u` to find the unique line.                         |
