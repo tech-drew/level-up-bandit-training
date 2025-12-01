@@ -73,15 +73,23 @@
 - 'file ./*' will show you the formatting of each file. Look for the ASCII text file. 
 
 
-# Level 5 → 6 **Current Level**
+# Level 5 → 6 
 - Goal: Find a file of specific size and permissions
 - username ssh bandit5@bandit.labs.overthewire.org -p 2220
 - password 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 - Commands used:
+- ls -la
+- cd inhere
+- find . -type f -size 1033c ! -executable
+- cd ./maybehere07/
+- cat .file2
 - Notes and learning points:
-
-# Level 6 → 7
+- Add in notes for this level later.
+  
+# Level 6 → 7 **Current Level**
 - Goal: Locate a file by user/group ownership
+- ssh bandit5@bandit.labs.overthewire.org -p 2220
+- password HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 - Commands used:
 - Notes and learning points:
 
