@@ -85,19 +85,24 @@
 - cat .file2
 - Notes and learning points:
 - type has some common options:f (file), d (directory), l (symbolic link)
-- size has some common options:c (bites), k (kilobytes), M (megabytes), G (gigabytes), T (terabytes)
+- size has some common options:c (bytes), k (kilobytes), M (megabytes), G (gigabytes), T (terabytes)
 - ! not besides -execure you could use -user for something not created by a user
 - find . -type f -size 1033c ! -user -bob   This command looks for file this size not owned by bob
   
-# Level 6 → 7 **Current Level**
+# Level 6 → 7 
 - Goal: Locate a file by user/group ownership
-- ssh bandit5@bandit.labs.overthewire.org -p 2220
+- username ssh bandit6@bandit.labs.overthewire.org -p 2220
 - password HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 - Commands used:
+- find / -type f -size 33c -user bandit7 2>/dev/null
 - Notes and learning points:
+- Use the same find command but searching for a user
+- Use pipe redirection to eliminate errors
 
-# Level 7 → 8
+# Level 7 → 8 **Current Level**
 - Goal: Use `grep` to extract a line containing a keyword
+- username ssh bandit7@bandit.labs.overthewire.org -p 2220
+- password morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 - Commands used:
 - Notes and learning points:
 
