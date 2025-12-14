@@ -129,12 +129,21 @@
 - Notes and learning points:
 - strings prints human readible content from a file
 
-# Level 10 → 11 **Current Level**
+# Level 10 → 11 
+- username ssh bandit10@bandit.labs.overthewire.org -p 2220
+- password FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 - Goal: Decode a Base64-encoded file
 - Commands used:
+- cat data.txt
+- base64 -d -data.txt | strings
 - Notes and learning points:
+- The -d decodeds the base64 file. Without the -d flag the base64 command encodes the information.
+- If a file mainly contains letters and numbers like the below it is possible to have base64 encoding
+- `U29tZSBleGFtcGxlIHRleHQgdGhhdCBpcyBjb250YWluZWQgd2l0aCBhbiBpbWFnZQ==`
 
-# Level 11 → 12
+# Level 11 → 12 **Current Level**
+- username ssh bandit10@bandit.labs.overthewire.org -p 2220
+- password dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 - Goal: Decode ROT13‑encoded text using `tr`
 - Commands used:
 - Notes and learning points:
