@@ -157,14 +157,52 @@
 - People could decode the Rot13 message if they wanted to read it.
 - Not encrpytion, simply obfuscation.
 
-# Level 12 → 13 **Current Level**
+# Level 12 → 13 
 - username ssh bandit12@bandit.labs.overthewire.org -p 2220
 - password 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 - Goal: Reverse a hexdump and decompress data to reveal password
 - Commands used:
+- cd tmp
+- mktemp -d
+- cd /tmp/tmp.1jIVCI0kE
+- xxd -r data.hex data
+- file data
+- mv data data.gz
+- gunzip data.gz
+   22  file data
+   23  mv data data.bz2
+   24  bunzip2 data.bz2
+   25  file data
+   26  mv data data.gz
+   27  gunzip data.gz
+   28  file data
+   29  tar xf data
+   30  file data
+   31  tar xf data
+   32  file data
+   33  ls -l
+   34  mv data5.bin data
+   35  file data
+   36  tar xf data
+   37  ls -l
+   38  mv data6.bin data
+   39  file data
+   40* mv data8 data.bz2
+   41  bunzip2 data.bz2
+   42  file data
+   43  tar xf data
+   44  ls -l
+   45  mv data8.bin data
+   46  file data
+   47  mv data data.gz
+   48  gunzip data.gz
+   49  file data
+   50  cat data
 - Notes and learning points:
 
-# Level 13 → 14 
+# Level 13 → 14 **Current Level**
+- username ssh bandit13@bandit.labs.overthewire.org -p 2220
+- password FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 - Goal: Use an SSH key to log in and read a file
 - Commands used:
 - Notes and learning points:
